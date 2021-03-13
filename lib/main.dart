@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'CryptoXchange',
 
-      home: MyHomePage(title: 'Crypto Exchange'),
+      home: MyHomePage(title: 'CryptoXchange'),
     );
   }
 }
@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.black,
         title: Text(widget.title),
         actions: [
-          FlatButton(onPressed: _refresh, child: Icon(Icons.refresh, color: Colors.white,))
+          TextButton(onPressed: _refresh, child: Icon(Icons.refresh, color: Colors.white,))
         ],
       ),
       body: Container(
